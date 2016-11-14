@@ -9,14 +9,14 @@
 
 ### Functionality & MVP  
 
-- [ ]Restart and turn music on and off.
-- [ ]Protecting planet moves from start to end.
-- [ ]Meteors coming from random directions.
-- [ ]Shooting on Meteors destroys them.
+- [ ] Restart and turn music on and off.
+- [ ] Protecting planet moves from start to end.
+- [ ] Meteors coming from random directions.
+- [ ] Shooting on Meteors destroys them.
 
 In addition, this project will include:
 
-- [ ]A game tutorial with rules and pictures.
+- [ ] A game tutorial with rules and pictures.
 
 
 ### Wireframes
@@ -56,7 +56,6 @@ Learn how to use canvas to make moving objects and effects.
 Goals:
   - Build rendering part of the script.
   - Shows simple objects on canvas.
-  -
 
 **Day 2**: Build `meteors.js` and connect it to `game.js`. Expect to render moving meteors
 on canvas.
@@ -80,5 +79,5 @@ Goals:
 
 ### Bonus features
 
-- [ ]Add more difficult levels.
-- [ ]Add more weapons.
+- [ ] Add more difficult levels.
+- [ ] Add more weapons.
