@@ -27,7 +27,7 @@ canvas:hover {
 
 .buttons {
   display: flex;
-  border: 2px solid white;
+  /*border: 2px solid white;*/
   flex-direction: column;
   margin-top: 25%;
   margin-left: 10px;
@@ -80,7 +80,7 @@ canvas:hover {
 }
 
 .difficulty {
-  border: 1px solid white;
+
   display: flex;
   cursor: pointer;
   font-size: 40px;
@@ -90,8 +90,8 @@ canvas:hover {
 
 .dropdown {
   display: flex;
-  height: 42px;
-  width: 42px;
+  height: 46px;
+  width: 46px;
   border: 1px solid white;
 
 }
@@ -101,5 +101,17 @@ canvas:hover {
   margin-bottom: 100px;
   font-size: 30px;
   margin-left: 20px;
+  display: none;
+}
 
+.level1 {
+  border: 1px solid white;
+}
+
+.level2 {
+  border: 1px solid white;
+}
+
+.level3 {
+  border: 1px solid white;
 }
