@@ -1,9 +1,9 @@
 body {
+  position: relative;
   display:flex;
-  justify-content: center;
+  /*justify-content: center;*/
   /*flex-direction: column;*/
 }
-
 
 
 canvas {
@@ -17,4 +17,89 @@ canvas {
 
 canvas:hover {
   cursor: crosshair;
+}
+
+.continue {
+  position: absolute;
+  color:white;
+  border: 2px solid white;
+}
+
+.buttons {
+  display: flex;
+  border: 2px solid white;
+  flex-direction: column;
+  margin-top: 25%;
+  margin-left: 10px;
+  padding-right: 40px;
+  z-index: 2;
+}
+
+
+.restart {
+  width: 50px;
+  height: 50px;
+}
+
+.restart:hover {
+  cursor: pointer;
+}
+
+.music {
+  width: 50px;
+  height: 50px;
+  display: block;
+}
+
+.music:hover {
+  cursor: pointer;
+}
+
+.mute {
+  width: 50px;
+  height: 50px;
+  display: none;
+}
+
+.mute:hover {
+  cursor: pointer;
+}
+
+.tutorial {
+  width: 50px;
+  height: 50px;
+}
+
+.tutorial:hover {
+  cursor: pointer;
+}
+
+.diffBox {
+  display:flex;
+  flex-direction: row;
+}
+
+.difficulty {
+  border: 1px solid white;
+  display: flex;
+  cursor: pointer;
+  font-size: 40px;
+  color: white;
+  margin-left: 10px;
+}
+
+.dropdown {
+  display: flex;
+  height: 42px;
+  width: 42px;
+  border: 1px solid white;
+
+}
+
+.levels {
+  color: white;
+  margin-bottom: 100px;
+  font-size: 30px;
+  margin-left: 20px;
+
 }

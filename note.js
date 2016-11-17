@@ -4,7 +4,7 @@
 // make bullets come out one by one.
 // music
 
-
+circle.compositeOperation = "lighter";
 
 // css stuffs
 
