@@ -1,3 +1,11 @@
+html {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+
+
 body {
   position: relative;
   display:flex;
@@ -25,8 +33,8 @@ canvas:hover {
   width: 100%;
   height: 100%;
   position: absolute;
-  background: rgba(180, 180, 180, 0.35);
-  /*display: none;*/
+  background: rgba(150, 150, 150, 0.2);
+  display: none;
 }
 
 
@@ -40,7 +48,7 @@ canvas:hover {
   display: flex;
   /*border: 2px solid white;*/
   flex-direction: column;
-  margin-top: 40%;
+  margin-top: 45%;
   margin-left: 10px;
   z-index: 3;
 }
@@ -58,7 +66,7 @@ canvas:hover {
 .music {
   width: 50px;
   height: 50px;
-  display: block;
+  display: none;
 }
 
 .music:hover {
@@ -68,36 +76,51 @@ canvas:hover {
 .mute {
   width: 50px;
   height: 50px;
-  display: none;
+  display: block;
 }
 
 .mute:hover {
   cursor: pointer;
 }
 
-.tutorial {
+/*.tutorial {
   width: 50px;
   height: 50px;
 }
 
 .tutorial:hover {
   cursor: pointer;
-}
+}*/
 
 .start-page {
-  display: flex;
-  border: 2px solid white;
-  height: 50vh;
+  display: block;
+  /*border: 2px solid white;*/
+  height: 57vh;
   width: 50vw;
-  flex-direction: row;
+  flex-direction: column;
   margin-top: 200px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   margin-left: 300px;
   z-index: 3;
+
+  /*display: none;*/
 }
 
 .start-title {
   color: white;
+  font-size: 90px;
+  margin-left: 50px;
+  font-family: 'Bungee Inline', cursive;
+  color: black;
+  text-shadow: -1px 0 yellow, 0 1px yellow, 1px 0 yellow, 0 -1px yellow;
+}
+
+.instruction {
+  color: white;
+  font-size: 30px;
+  margin-left: 30px;
+  font-family: 'Orbitron', sans-serif;
+  color: #2f8ab6;
 }
 
 .diff-container {
@@ -107,6 +130,8 @@ canvas:hover {
 .diffBox {
   display:flex;
   flex-direction: row;
+  margin-left: 250px;
+  margin-top: 20px;
 }
 
 .diffBox:hover {
@@ -118,6 +143,7 @@ canvas:hover {
   font-size: 40px;
   color: white;
   margin-left: 10px;
+  font-family: 'Orbitron', sans-serif;
 }
 
 .dropdown {
@@ -132,30 +158,104 @@ canvas:hover {
   color: white;
   margin-bottom: 30px;
   font-size: 30px;
-  margin-left: 20px;
-  display: none;
+  margin-left: 280px;
+  font-family: 'Orbitron', sans-serif;
 }
 
 .level1 {
-  border: 1px solid white;
 }
 
 .level1:hover {
   cursor: pointer;
+  color: blue;
 }
 
 .level2 {
-  border: 1px solid white;
 }
 
 .level2:hover {
   cursor: pointer;
+  color: yellow;
 }
 
 .level3 {
-  border: 1px solid white;
 }
 
 .level3:hover {
   cursor: pointer;
+  color:red;
+}
+
+
+.win-page {
+  display: none;
+  /*border: 2px solid white;*/
+  height: 57vh;
+  width: 50vw;
+  flex-direction: column;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  margin-left: 300px;
+  color: white;
+  z-index: 3;
+}
+
+.win-title {
+  font-size: 90px;
+  margin-left: 50px;
+  font-family: 'Bungee Inline', cursive;
+  color: black;
+  text-shadow: -1px 0 yellow, 0 1px yellow, 1px 0 yellow, 0 -1px yellow;
+}
+
+.win-play-again {
+  margin-top: 80px;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding: 15px;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.win-play-again:hover {
+  cursor: pointer;
+  color: #00ddfd;
+}
+
+.lose-page {
+  display: none;
+  /*border: 2px solid white;*/
+  height: 57vh;
+  width: 50vw;
+  flex-direction: column;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  margin-left: 300px;
+  color: white;
+  z-index: 3;
+}
+
+.lose-title {
+  font-size: 90px;
+  margin-left: 80px;
+  font-family: 'Bungee Inline', cursive;
+  color: black;
+  text-shadow: -1px 0 yellow, 0 1px yellow, 1px 0 yellow, 0 -1px yellow;
+}
+
+.lose-play-again {
+  color: white;
+  margin-top: 80px;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding: 15px;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.lose-play-again:hover {
+  cursor: pointer;
+  color: #00ddfd;
 }

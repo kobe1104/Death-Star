@@ -7,16 +7,15 @@
     <script type="application/javascript" src="lib/bundle.js"></script>
     <script src="https://code.createjs.com/tweenjs-0.6.2.min.js"></script>
     <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./style/reset.css"/>
     <link rel="stylesheet" type="text/css" href="./style/canvas.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Orbitron|Special+Elite" rel="stylesheet">
 
 
   </head>
   <body>
     <canvas id='canvas'></canvas>
     <div class="overLay"></div>
-    <div class="continue">Play</div>
-
-
 
     <div class='buttons'>
 
@@ -27,22 +26,27 @@
 
       <img
       class="music"
-      src="./docs/wireframes/volume.png"
-      />
-
-      <img
-      class="mute"
       src="./docs/wireframes/mute.png"
       />
 
       <img
-      class="tutorial"
-      src="./docs/wireframes/info.png"
+      class="mute"
+      src="./docs/wireframes/volume.png"
       />
     </div>
 
     <div class="start-page">
-      <h1 class="start-title">Protect the Death Star</h1>
+      <h1 class="start-title">Death Star</h1>
+      <p class="instruction">
+        Keep all the asteriods from hitting the Death Star by
+        shooting them.
+        <br/>
+        (click to shoot)
+        <br/>
+        Choose a difficulty to begin the game.
+        <br/>
+        The dark side will be with you always.
+      </p>
       <div class="diff-container">
         <div class="diffBox">
           <div class="difficulty">Difficulty</div>
@@ -56,6 +60,14 @@
       </div>
     </div>
 
+    <div class="lose-page">
+      <div class="lose-title">Game Over</div>
+      <div class="lose-play-again">Play Again</div>
+    </div>
 
+    <div class="win-page">
+      <div class="win-title">You Made It</div>
+      <div class="win-play-again">Play Again</div>
+    </div>
   </body>
 </html>
