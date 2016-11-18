@@ -13,6 +13,6 @@ destroying them with your weapon!
 ### Game Music and Effect Sounds
 
 ### Asteroids Come from all Directions
-![game](docs/wireframes/home-logged-in.png)
+![game](./docs/wireframes/home-logged-in.png)
 ### Death Star has Random Path Each Game
 ### Restarting Game
