@@ -81,3 +81,4 @@ Goals:
 
 - [ ] Add more difficult levels.
 - [ ] Add more weapons.
+- [ ] Change the protecting object to actual Death Star picture.
