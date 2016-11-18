@@ -1,6 +1,8 @@
 body {
   position: relative;
   display:flex;
+  height: 100vh;
+  width: 100vw;
   /*justify-content: center;*/
   /*flex-direction: column;*/
 }
@@ -19,6 +21,15 @@ canvas:hover {
   cursor: crosshair;
 }
 
+.overLay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: rgba(180, 180, 180, 0.35);
+  /*display: none;*/
+}
+
+
 .continue {
   position: absolute;
   color:white;
@@ -29,10 +40,9 @@ canvas:hover {
   display: flex;
   /*border: 2px solid white;*/
   flex-direction: column;
-  margin-top: 25%;
+  margin-top: 40%;
   margin-left: 10px;
-  padding-right: 40px;
-  z-index: 2;
+  z-index: 3;
 }
 
 
@@ -74,15 +84,37 @@ canvas:hover {
   cursor: pointer;
 }
 
+.start-page {
+  display: flex;
+  border: 2px solid white;
+  height: 50vh;
+  width: 50vw;
+  flex-direction: row;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  margin-left: 300px;
+  z-index: 3;
+}
+
+.start-title {
+  color: white;
+}
+
+.diff-container {
+
+}
+
 .diffBox {
   display:flex;
   flex-direction: row;
 }
 
-.difficulty {
-
-  display: flex;
+.diffBox:hover {
   cursor: pointer;
+}
+
+.difficulty {
+  display: flex;
   font-size: 40px;
   color: white;
   margin-left: 10px;
@@ -92,13 +124,13 @@ canvas:hover {
   display: flex;
   height: 46px;
   width: 46px;
-  border: 1px solid white;
+  /*border: 1px solid white;*/
 
 }
 
 .levels {
   color: white;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
   font-size: 30px;
   margin-left: 20px;
   display: none;
@@ -108,10 +140,22 @@ canvas:hover {
   border: 1px solid white;
 }
 
+.level1:hover {
+  cursor: pointer;
+}
+
 .level2 {
   border: 1px solid white;
 }
 
+.level2:hover {
+  cursor: pointer;
+}
+
 .level3 {
   border: 1px solid white;
+}
+
+.level3:hover {
+  cursor: pointer;
 }
