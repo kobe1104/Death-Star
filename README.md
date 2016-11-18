@@ -25,3 +25,15 @@ destroying them with your weapon!
 ### Death Star has Random Path Each Game
   Your Death Star goes in a different path everytime! Each game is unique!
 ### Restarting Game
+  Need to restart or play again? Simply click on the first icon on the left
+  bottom corner!
+
+## Future Directions for the Project
+
+### Make More Levels
+  Make more interesting levels such as making Death Star invisible and
+  only leave the path for harder levels.
+### Make Different Weapons
+  Allows players get better weapons!
+### Upgrade Death Star Picture
+  Actually use the Death Star picture for it.
