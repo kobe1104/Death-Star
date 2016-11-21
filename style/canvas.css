@@ -48,7 +48,7 @@ canvas:hover {
   display: flex;
   /*border: 2px solid white;*/
   flex-direction: column;
-  margin-top: 45%;
+  margin-top: 40%;
   margin-left: 10px;
   z-index: 3;
 }

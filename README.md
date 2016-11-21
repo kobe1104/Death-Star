@@ -1,6 +1,7 @@
 # Death Star
 
 [Death Star live][heroku]
+
 Death Star is a single page browser game inspired by Star Wars movies.
 This time, the player will be on the villain side helping to protect the
 secret weapon "Death Star". Keep the asteroids from hitting Death Star by
