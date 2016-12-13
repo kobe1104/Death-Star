@@ -20,7 +20,8 @@ canvas {
   /*background-color: green;*/
   position: absolute;
   border: 2px solid black;
-  background-image: url('../docs/wireframes/background.jpg');
+  background-image: url('../docs/wireframes/bgi-4.jpg');
+  /*background-image: url('../docs/wireframes/background.jpg');*/
   background-repeat: no-repeat;
   background-size: cover;
 }
