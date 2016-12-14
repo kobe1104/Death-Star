@@ -19,7 +19,7 @@ destroying them with your weapon!
   Click on the volume icon on the left bottom corner to turn sounds on
   and off!
 ### Asteroids Come from all Directions
-![game](http://res.cloudinary.com/corgi1989/image/upload/c_scale,w_1029/v1481743605/Screen_Shot_2016-12-14_at_11.23.40_AM_iyzmcr.png)
+![game](http://res.cloudinary.com/corgi1989/image/upload/c_scale,w_777/v1481743605/Screen_Shot_2016-12-14_at_11.23.40_AM_iyzmcr.png)
 
   Watch out! Asteroids come from random directions. Shoot them before they
   hit the Death Star!
