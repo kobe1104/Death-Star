@@ -27,8 +27,8 @@ canvas {
 }
 
 canvas:hover {
-  cursor: crosshair;
-  /*cursor: url('http://www.skirmishsamford.com.au/images/crosshair.png');*/
+  /*cursor: crosshair;*/
+  cursor: url('../docs/wireframes/crosshair.png'), auto;
 }
 
 .overLay {
