@@ -14,17 +14,20 @@ destroying them with your weapon!
 ## Features & Implementation
 
 ### Game Music and Effect Sounds
-  It comes with great background music when the game starts and
-  sounds effects when shooting and winning or losing the game.
-  Click on the volume icon on the left bottom corner to turn sounds on
-  and off!
+  The game music and sound effects are supported by HowlerJS. Depends on the
+  user actions, it plays different theme musics and sounds. Users are also
+  allowed to turn the sounds off by clicking on the speaker icon on the left
+  bottom corner.  
+
 ### Asteroids Come from all Directions
 ![game](http://res.cloudinary.com/corgi1989/image/upload/c_scale,w_777/v1481743605/Screen_Shot_2016-12-14_at_11.23.40_AM_iyzmcr.png)
 
-  Watch out! Asteroids come from random directions. Shoot them before they
-  hit the Death Star!
+  Asteroids spawn locations, directions and speed are all handled by CreateJS.
+  The distance between asteroids and death star is used to determine if they
+  collide.
 ### Death Star has Random Path Each Game
-  Your Death Star goes in a different path everytime! Each game is unique!
+  Your Death Star goes in a unique path each game! The path is calculated and
+  randomized in a certain range and speed to make it more challenging.
 ### Restarting Game
   Need to restart or play again? Simply click on the first icon on the left
   bottom corner!
@@ -32,9 +35,8 @@ destroying them with your weapon!
 ## Future Directions for the Project
 
 ### Make More Levels
-  Make more interesting levels such as making Death Star invisible and
-  only leave the path for harder levels.
+  I will focus on creating more levels with different theme and conditions
+  such as making the asteroids flashing so they are harder to predict.
 ### Make Different Weapons
-  Allows players get better weapons!
-### Upgrade Death Star Picture
-  Actually use the Death Star picture for it.
+  Allowing players to upgrade the weapon after getting certain items or achieving
+  goals.
